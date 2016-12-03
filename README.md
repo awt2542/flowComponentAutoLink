@@ -1,6 +1,8 @@
 ## flowComponentAutoLink
 The flowComponentAutoLink module for Framer.js helps you create links for Framer's FlowComponent inside Sketch. It consists of a Framer module and a Sketch plugin. The Framer module adds the autoLink() method to your FlowComponents. It will automatically set up links based on layer names.
 
+![sketchdemo](https://cl.ly/0X0i443b0f44/Screen%20Shot%202016-12-03%20at%2013.36.22.png)
+
 ##Supported layer names
 
 * showNext_layerB
