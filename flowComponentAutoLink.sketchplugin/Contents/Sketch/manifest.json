@@ -1,0 +1,31 @@
+{
+  "author" : "Andreas",
+  "commands" : [
+    {
+      "script" : "createLink.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Create a link",
+      "identifier" : "createLink"
+    },
+    {
+      "script" : "createBackBtn.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Create back button",
+      "identifier" : "createBackBtn"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "createLink",
+      "createBackBtn"
+    ],
+    "title" : "flowComponentAutoLink"
+  },
+  "identifier" : "com.sketchapp.flowcomponentautolink",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "flowComponentAutoLink"
+}
