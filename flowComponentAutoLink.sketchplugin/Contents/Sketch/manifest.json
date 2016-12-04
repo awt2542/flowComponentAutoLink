@@ -14,12 +14,28 @@
       "shortcut" : "",
       "name" : "Create back button",
       "identifier" : "createBackBtn"
+    },
+    {
+      "script" : "createHeader.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Create header",
+      "identifier" : "createHeader"
+    },
+    {
+      "script" : "createFooter.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Create footer",
+      "identifier" : "createFooter"
     }
   ],
   "menu" : {
     "items" : [
       "createLink",
-      "createBackBtn"
+      "createBackBtn",
+      "createHeader",
+      "createFooter"
     ],
     "title" : "flowComponentAutoLink"
   },
