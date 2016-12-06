@@ -4,6 +4,7 @@ transitions = [
   "showOverlayRight"
   "showOverlayBottom"
   "showOverlayLeft"
+  "showOverlayCenter"
 ]
 
 FlowComponent::autoLink = -> 
