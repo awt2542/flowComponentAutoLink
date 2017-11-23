@@ -7,19 +7,18 @@ transitions = [
   "showOverlayCenter"
 ]
 
-FlowComponent::autoLink = -> 
+FlowComponent::autoLink = ->
+  separator = "_"
   layers = Framer.CurrentContext._layers
   layers.forEach (l) => 
     l.name = l._info.originalName if l._info?.originalName
-    if l.name is "showPrevious"
-      l.onClick => @showPrevious()
-    if l.name is "header"
-      @header = l
-    if l.name is "footer"
-      @footer = l
-    transition = l.name.split('_')[0]
+    switch l.name
+     when "showPrevious" then l.onClick => @showPrevious()
+     when "header" then @header = l
+     when "footer" then @footer = l
+    transition = l.name.split(separator)[0]
     if _.includes transitions, transition
-      destination = l.name.replace(transition+'_','')
+      destination = l.name.replace(transition+separator,'')
       l.onClick =>
         linkedLayer = _.find(layers, (l) -> l.name is destination)
         @[transition] linkedLayer
