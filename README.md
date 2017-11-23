@@ -5,14 +5,14 @@ The flowComponentAutoLink module for Framer.js helps you create links, headers a
 
 ![sketchdemo](https://cl.ly/0X0i443b0f44/Screen%20Shot%202016-12-03%20at%2013.36.22.png)
 
-##How to set it up
+## How to set it up
 1. Include the flowComponentAutoLink module to your Framer project
 4. Open Sketch and select the two layers you want to link together (a button layer and page layer)
 5. Create a link using the Sketch plugin and select a transition. Notice how the button layer will change its name
 6. Import your changes to Framer
 7. Call flowComponent.autoLink() after you've defined your FlowComponent and your start screen.
 
-###Supported layer names
+### Supported layer names
 
 * showNext_layerB
 * showOverlayTop_layerB
@@ -25,7 +25,7 @@ The flowComponentAutoLink module for Framer.js helps you create links, headers a
 
 Replace layerB with the name of the layer you want to link to. The Sketch plugin will generate these names for you but you can write them yourself, too.
 
-##Example project
+## Example project
 
 ```coffeescript
 flowComponentAutoLink = require 'flowComponentAutoLink'
@@ -36,6 +36,6 @@ flow.autoLink()
 ```
 
 
-###Contact
+### Contact
 
 Twitter: [@andreaswah](http://twitter.com/andreaswah)
