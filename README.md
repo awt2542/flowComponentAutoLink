@@ -34,8 +34,3 @@ flow = new FlowComponent
 flow.showNext sketch.pageA
 flow.autoLink()
 ```
-
-
-### Contact
-
-Twitter: [@andreaswah](http://twitter.com/andreaswah)
